@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript"></script>
+  <script src="fetch.js"></script>
+  <title>Edson Casimiro</title>
+  <!--adding google fonts and fontawesome-->
+
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+</head>
+
+<body onload="quote();">
+
+  <nav>
+    <div class="logo">
+      Edson Casimiro
+    </div>
+    <div class="hamburger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#course">Courses&skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#project">Project</a></li>
+    </ul>
+  </nav>
+
+  <p id="home"></p>
+  <div class="start" style="overflow:auto;">
+    <div class="intro1">
+      <img src="me.jpg" alt="edson casimiro">
+      <h3>Computer Engineering Student</h3>
+      <p>Home:
+        <span><i class="material-icons" id="btn">home</i>Ks, Angola</span> <span><i class="material-icons"
+            id="btn">location_on</i>Istanbul, Turkey</span>
+      </p>
+      <p aria-label="Languages"><span><i class="material-icons" id="btn">translate</i></span>Portuguese, English,
+        Turkish </p>
+      <br>
+      <h1>
+        <a href="https://www.linkedin.com/in/edson-casimiro-435500137/"
+          style="textdecoration:none; color:black; margin-right: 20px">
+          <small aria-label="Languages"><i class="fab fa-linkedin"></i></small>
+        </a>
+        <a href="https://github.com/HiEdson" style="textdecoration:none; color:black; margin-right: 20px">
+          <small aria-label="Languages"><i class="fab fa-github"></i></small>
+        </a>
+        <a href="mailto: edsoncasimiro264@gmail.com" style="textdecoration:none; color:black; margin-right: 20px">
+          <small aria-label="Languages"><i class="fas fa-envelope"></i></small>
+        </a>
+      </h1>
+    </div>
+
+    <div class="intro2">
+      <!--h1><a href="/hello">Click here and see json </a></h1-->
+      <h1> Edson casimiro </h1>
+      <p style=" text-align: center;"><small id="fetch" style="color: green;"></small></p>
+      <p>I am an undergraduate student in the Department of Computer Engineering at Istanbul University
+        graduating in May 2023.
+        previously, i studied high school in angola with the major in electricity, electronics and
+        telecommunications.
+      </p>
+      <p>I am passionate about artificial intelligence algorithms and analyzing safe ways to apply them to web
+        systems as well
+        as IoT products to safely make easier the life of the target audience.
+      </p>
+      <p>Currently I perform backend developer role in a research and development group for electric and
+        autonomous
+        cars, where I am
+        working on the car's telemetry system.
+      </p>
+      <br>
+      <div id="interest" style="width: 50%; float: left; ">
+        <h2>INTERESTS</h2>
+        <ul style="text-align: left;">
+          <h4><i class="material-icons" id="btn">memory</i>Real-time web Technologies </h4>
+          <h4><i class="material-icons" id="btn">memory</i>Computer Vision</h4>
+          <h4><i class="material-icons" id="btn">memory</i>Autonomous Devices</h4>
+          <h4><i class="material-icons" id="btn">memory</i>Cybersecurity</h4>
+        </ul>
+      </div>
+      <div id="interest" style="width: 50%; float: right;">
+        <h2>EDUCATION</h2>
+        <ul style="text-align: center;">
+          <h4><i class="material-icons">school</i>
+            <a style="textdecoration:none; color:green;" href="https://istanbulc.edu.tr/en/_">
+              B.Eng. in Computer Engineering, 2023
+            </a>
+          </h4>
+          <span>Istanbul University, Turkey</span>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <p id="course"></p>
+  <div class="container">
+    <div class="left-div left-text">
+      <h2>SKILLS</h2>
+      <p>
+      <div id="barchart_values">skills</div>
+      </p>
+    </div>
+
+    <div class="right-div right-text">
+      <h2 style="margin-bottom:30px;">SOME COURSES</h2>
+      <ul id="rDivUl">
+        <li>
+          C Programming with Linux Professional Certificate - edx, 2021
+        </li>
+        <li>
+          Web Development Bootcamp(nodeJs)- Udemy, 2021
+        </li>
+        <li>
+          Deep Learning Specialization - deeplearning.ai, 2020.
+        </li>
+        <li>
+          Tensorflow 2.0 Deep Learning and Ai with Python - Udemy, 2020.
+        </li>
+        <li>
+          Python and Flask Bootcamp - Udemy, 2020.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <p id="experience"></p>
+  <div class="exp">
+    <h2 style="margin-bottom: 20px;">EXPERIENCE</h2>
+    <div class="exp1 left-text">
+      <h4>GOOGLE SOFTWARE PRODUCT SPRINT</h4>
+      <span>Google inc., participant</span><br>
+      <span>May ~ Aug 2021, Remote</span>
+      <ul>
+        &nbsp;<li>
+          Contributing to open source software using Git and GitHub, conducting code reviews with/for
+          teammates,
+          extending an existing codebase, participating in distributed development, and designing new
+          components
+          and interfaces.
+        </li>
+        &nbsp;<li>
+          Working as a team to develop an open source java-based web Application to solve a problem that
+          society
+          has been facing.
+        </li>
+      </ul>
+    </div>
+    <div class="exp1 left-text">
+      <h4>SOFTWARE ENGINEER</h4>
+      <span>Projecto Iambu, NGO</span><br>
+      <span>2020-2021, Remote</span>
+      <ul>
+        &nbsp;<li>
+          use nodejs and express to develop the Application server side as well as design and connect the noSQL
+          Mongodb data base.
+          Reactjs on the client side ensuring a better experience for our users
+        </li>
+      </ul>
+    </div>
+    <div class="exp2 right-text">
+      <h4>SOFTWARE ENGINEER</h4>
+      <span>MILAT1453 AUTOMOTIVE R&D</span><br>
+      <span>Sep 2020 ~ present, Istanbul-Turkey</span>
+      <ul>
+        &nbsp;<li>
+          Work with the electronics team to develop an IOT solution for the Telemetry system
+        </li>
+        &nbsp;<li>
+          Use node.Js to develop the server of the tracking web-site as well as HTLM-CSS and JavaScript for
+          the
+          frontend.
+        </li>
+        &nbsp;<li>
+          Work with the Autonomous team and develop an Autopilot Solution for our Autonomous car using
+          Artificial
+          intelligence algorithms and ROS.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container" id="project">
+    <h2 style="margin-bottom: 20px;">PROJECTS</h2>
+
+    <div class="project">
+      <h3 style="color: black;">BACKGAMMON CONSOLE GAME</h3>
+      <span><a style="textdecoration:none; color:green;" href="https://github.com/HiEdson/Backgammon-Game-C_Cpp">
+          <i class="fab fa-github"></i>
+        </a>
+      </span>
+      <p>In this Project i worked with C and C++ by applying Random file acess
+        concept in order to update the table(table.dat) information as well as
+        recording the moviments from each player(log.dat) through sequential file acess techniques.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3 style="color: black;">SOCIAL BLOG WITH PYTHON FLASK</h3>
+      <span><a style="textdecoration:none; color:green;"
+          href="https://github.com/HiEdson/Python-and-AI-projects/tree/master/company_blog_app">
+          <i class="fab fa-github"></i>
+        </a>
+      </span>
+      <p>Use python package for database abstraction layer, form validation and develop user authentication and
+        authorization to create, read, delete and update posts. User and post information was stored in
+        SQLAlchemy,
+        a SQLite database.
+      </p>
+    </div>
+    <div class="project">
+      <h3 style="color: black;">LIFESTYLE WEB APP WITH NODEJS</h3>
+      <span>https://hossii.herokuapp.com/ ||
+        <a style="textdecoration:none; color:green;" href="https://github.com/HiEdson/MERN-Stack-projects">
+          <i class="fab fa-github"></i>
+        </a>
+      </span>
+      <p>Using Node.JS and Express.Js to create routes of the application. The usage of MongoDB allowed me to do
+        DB
+        associations between different collections. I used Express middleware to authorize the access to some
+        routes
+        and the
+        Authentication was done using Passport.JS.
+      </p>
+    </div>
+    <p>FIND MORE HERE
+      <a style="textdecoration:none; color:green;" href="https://github.com/HiEdson">
+        <i class="fab fa-github"></i>
+      </a>
+    </p>
+  </div>
+
+
+
+  <div class="form">
+    <form action="/form-handler" method="POST">
+      <div class="row">
+        <div class="col-25">
+          <label for="name">Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="name" name="name" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="email">Email</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="email" name="email" placeholder="Your Email..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Subject</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+
+
+
+  <div id="chart-container"></div>
+
+
+  <p style="margin: 2%; text-align: center;">© Edson Casimiro, 2021</p>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
