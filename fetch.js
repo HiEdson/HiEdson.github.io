@@ -8,18 +8,19 @@ function drawChart() {
   var data = google.visualization.arrayToDataTable([
     ["Element", "Density", { role: "style" }],
     ["Algorithm & DS", 5, "green"],
-    ["Deep Learning", 3.5, "green"],
-    ["C/C++", 4.5, "green"],
-    ["Python", 4.5, "green"],
+    ["Deep Learning", 4, "green"],
+    ["C/C++", 4.3, "green"],
+    ["Python", 4.8, "green"],
     ["NodeJs", 4.5, "green"],
-    ["Java", 3.5, "green"],
-    ["Flask", 3.5, "green"],
+    ["Java", 3.4, "green"],
+    ["Flask", 3.6, "green"],
     ["MongoDB", 4.5, "green"],
-    ["Git/Github", 4, "green"],
+    ["Git/Github", 4.5, "green"],
     ["Express.Js", 4.5, "green"],
-    ["TensorFlow", 3.3, "green"],
-    ["ROS", 3, "color: green"],
-    ["OpenCv", 3.75, "color: green"]
+    ["TensorFlow", 4, "green"],
+    ["ROS", 4.3, "color: green"],
+    ["OpenCv", 4, "color: green"],
+    ["", 1, "color: none"]
   ]);
 
   var view = new google.visualization.DataView(data);
